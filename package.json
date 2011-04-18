@@ -1,17 +1,17 @@
 {
-  "name": "jquery-mod",
-  "id": "jquery-mod",
+  "name": "jetpack-test4jquery",
+  "id": "jetpack-test4jquery",
   "version": "0.0.1",
   "description": "jQuery test in page-mod.",
   "keywords": [  ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Gozala/jquery-mod.git",
-    "web": "https://github.com/Gozala/jquery-mod"
+    "url": "git://github.com/Gozala/jetpack-test4jquery.git",
+    "web": "https://github.com/Gozala/jetpack-test4jquery"
   },
   "bugs": {
-    "web": "http://github.com/Gozala/jquery-mod/issues/"
+    "web": "http://github.com/Gozala/jetpack-test4jquery/issues/"
   },
   "directories": {
     "doc": "./docs",
@@ -24,13 +24,13 @@
   "dependencies": {
     "addon-kit": ">=0.9.0"
   },
-  "main": "jquery-mod",
+  "main": "jetpack-test4jquery",
   "engines": {
     "node": "0.4.x",
     "teleport": ">=0.2.0"
   },
   "scripts": {
-    "tests": "node tests/test-jquery-mod.js"
+    "tests": "node tests/test-jetpack-test4jquery.js"
   },
   "licenses": [
     {

@@ -1,13 +1,13 @@
 # jquery-mod #
 
-jQuery test in page-mod.
+Package running jquery tests in page-mod.
 
 ## Install ##
 
-    git clone git://github.com/Gozala/jquery-mod.git
+    git clone git://github.com/Gozala/jetpack-test4jquery.git
     git submodule update --init --recursive
 
 # Run jquery tests #
 
-    cd jquery-mod
+    cd jetpack-test4jquery
     cfx run
