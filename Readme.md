@@ -4,5 +4,10 @@ jQuery test in page-mod.
 
 ## Install ##
 
-    npm install jquery-mod
+    git clone git://github.com/Gozala/jquery-mod.git
+    git submodule update --init --recursive
 
+# Run jquery tests #
+
+    cd jquery-mod
+    cfx run
