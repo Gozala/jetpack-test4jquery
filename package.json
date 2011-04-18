@@ -21,7 +21,10 @@
   "devDependencies": {
     "test": ">=0.0.10"
   },
-  "main": "./lib/jquery-mod.js",
+  "dependencies": {
+    "addon-kit": ">=0.9.0"
+  },
+  "main": "jquery-mod",
   "engines": {
     "node": "0.4.x",
     "teleport": ">=0.2.0"
