@@ -1,0 +1,38 @@
+{
+  "name": "jquery-mod",
+  "id": "jquery-mod",
+  "version": "0.0.1",
+  "description": "jQuery test in page-mod.",
+  "keywords": [  ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gozala/jquery-mod.git",
+    "web": "https://github.com/Gozala/jquery-mod"
+  },
+  "bugs": {
+    "web": "http://github.com/Gozala/jquery-mod/issues/"
+  },
+  "directories": {
+    "doc": "./docs",
+    "lib": "./lib",
+    "test": "./tests"
+  },
+  "devDependencies": {
+    "test": ">=0.0.10"
+  },
+  "main": "./lib/jquery-mod.js",
+  "engines": {
+    "node": "0.4.x",
+    "teleport": ">=0.2.0"
+  },
+  "scripts": {
+    "tests": "node tests/test-jquery-mod.js"
+  },
+  "licenses": [
+    {
+      "type" : "MPL 1.1/LGPL 2.1/GPL 2.0",
+      "url" : "http://www.mozilla.org/MPL/"
+    }
+  ]
+}
